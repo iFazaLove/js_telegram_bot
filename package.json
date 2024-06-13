@@ -1,15 +1,19 @@
 {
   "name": "telebot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "source/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "dev": "nodemon source/bot.js",
+    "start": "node source/bot.js"
   },
   "author": "iFazaLove",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "node-telegram-bot-api": "^0.66.0"
+  }, 
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

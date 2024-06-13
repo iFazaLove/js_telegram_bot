@@ -1,0 +1,10 @@
+# environment variable files
+.env
+
+# macOS files
+.DS_Store
+
+# Node.js
+node_modules/
+
+
